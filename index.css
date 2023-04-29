@@ -28,3 +28,13 @@ h1, h2, h3, p {
     border-radius: 16px;
     outline: 2px solid white;
 }
+
+.italic {
+    font-style: italic;
+}
+
+@media (max-width: 600px) {
+    .subsection {
+        width: 80vw;
+    }
+}

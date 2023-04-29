@@ -7,25 +7,67 @@
         <h1>Project Seraph</h1>
         <div class="subsection">
             <h2>Premise</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-                Enim quo ipsam sunt delectus. Voluptas, illo reprehenderit 
-                consequuntur iusto sequi incidunt sed laudantium voluptatum 
-                nulla debitis ea neque culpa distinctio. Veritatis.</p>
+            <p>
+                Project Seraph is a turn-based strategy game in which players control one of six factions. Each faction is loosely based on either traditional 
+                fantasy races or Christian angelology/demonology. Each faction has unique units, strengths, weaknesses, abilities, and win conditions. In addition 
+                to the factions, the world is also populated with monsters such as the Great Phoenix and the Hydra, which offer various boons to those that defeat them. 
+                Compete against the other factions to shape the world for the future of your kind in Project Seraph!
+            </p>
         </div>
 
         <div class="subsection">
             <h2>Inspiration</h2>
-            <p>inspiration</p>
+            <p>
+                Project Seraph is heavily inspired by the 2004 PlayStation 2 game <span class="italic">Yu-Gi-Oh! Capsule Monster Coliseum</span> and the 
+                <span class="italic">Civilization</span> series of 4X strategy games. <span class="italic">Yu-Gi-Oh! Capsule Monster Coliseum</span> is a 
+                chess-like strategy game that I played a lot as a child. I played the game independently to improve my skills and build a strong set of units in 
+                order to play against my father who did the same. The game was an interesting departure from chess for the both of us. Like chess, the board is a 
+                square grid and each player has a piece they need to keep protected. Unlike chess, however, each piece has unique stats and one of three patterns for both 
+                movement and attack, with eight available combinations. These patterns are a vertical and horizontal cross, a diagonal cross, and a box-like pattern that 
+                uses only the space two away from the piece in each of the eight directions. The only combination of patterns not implemented is the box-like pattern for 
+                both movement and attack.
+            </p>
+            <p>
+                These patterns in particular are what inspired me to begin work on Project Seraph as I very quickly found what I perceived to be a flaw in the game design. 
+                Pieces with either a diagonal/diagonal, diagonal/box, or box/diagonal movement/attack pattern were inherently less valuable than any other piece, regardless 
+                of individual statistics. Those three combinations could be negated entirely by playing only on the spaces they could not reach, which was half of the entire 
+                board. While I liked playing with a diversity of pieces, this simple flaw made it less competitive to do so. I wanted to make a game that could utilize this 
+                same premise without this flaw.
+            </p>
         </div>
 
         <div class="subsection">
             <h2>Mechanics</h2>
-            <p>mechanics</p>
+            <p>
+                Gameplay is split into two distinct modes: a strategic mode and a tactical mode. In strategic mode, players can build and move armies across the world of Project 
+                Seraph. This mode is similar to the <span class="italic">Civilization</span> series in that the board is hexagonal, armies take up one tile, tiles show terrain, 
+                and cities exist on some tiles. Combat is treated very differently, however. Instead of the game running some calculations and playing a battle animation showing 
+                the results of a fight, Project Seraph shifts to the tactical mode. In this mode, players take the units that made up their army and control them in the 
+                <span class="italic">Capsule Monster Coliseum</span> inspired format. Both sides have a set number of Logistic Points which are expended when a unit performs an 
+                action, with a certain amount replenished at the start of each turn. Each unit has its own health stat, a speed stat that determines how far it can move, a movement 
+                pattern, an attack pattern, an attack strength, a defense stat, and a logistical cost. Logistical cost scales with a unit's power, allowing more weaker units to 
+                perform actions for the same cost as a more powerful unit. Each unit can move and attack, attack, or perform a special ability each turn, provided the player has 
+                enough Logistic Points to expend for the action. To remedy the pattern flaw <span class="italic">Capsule Monster Coliseum</span> experienced, all units have the 
+                ability to attack one space in any direction in addition to their attack pattern.
+            </p>
+            <p>
+                Unlike <span class="italic">Capsule Monster Coliseum</span> and chess, there is no king analogue. A player is defeated when all their units are destroyed, they 
+                surrender, or they retreat. Players have the option to retreat at any time. In order to do so, they must declare their retreat and bring their units to their edge 
+                of the board and perform a retreat action on each of them. Doing so will result in a loss and surrender the hexagonal tile on the strategic mode to their opponent 
+                but allow their units to survive to fight another day.
+            </p>
+            <p>
+                Monsters are treated as a PvE boss battle with the same view and mechanics as the PvP tactical mode. Each monster will have a unique set of attacks and abilities 
+                to utilize in battle, as well as a unique reward for successfully defeating it. The currently planned monsters are the Great Phoenix, the Eldritch Horror, 
+                the Dragon, Nemean Lion, the Erymanthian Boar, and the Hydra.
+            </p>
         </div>
         
         <div class="subsection">
             <h2>Devleopment</h2>
-            <p>development</p>
+            <p>
+                Development is set to begin in May 2023. Project Seraph will be developed using the Unity game engine.
+            </p>
         </div>
     </div>
 </body>
